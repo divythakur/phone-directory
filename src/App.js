@@ -1,9 +1,19 @@
 import React from 'react';
+import { render } from '@testing-library/react';
+import Header from "./Header"
+
+
+
 function App() {
   return (
-    <div >
-      phone directory
-    </div>
+    <div>
+      <Header />
+      <button>Add</button>
+      <div>
+        <span>Name </span><br />
+        <span>Phone</span>
+      </div>
+      </div>
   );
 }
 
