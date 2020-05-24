@@ -1,0 +1,16 @@
+.header {
+    text-Align:center;
+    padding:20;
+    background-color: #000; 
+    color:#fff;
+    text-Transform:uppercase;
+    
+}
+.Add-button{
+    color:black;
+    background-color: green;
+
+}
+.Name-heading{
+    margin-right: 45px;
+}
