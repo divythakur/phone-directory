@@ -36,7 +36,8 @@ function App() {
         subscriberlist.map(ele=>{
           return  <div key={ele.id}>
           <span  className="Name-heading">{ele.name} </span>
-        <span >{ele.phone}</span><br />
+        <span >{ele.phone}</span>
+        <button style={{color:"red",marginLeft:"72px"}}>delete</button>
         </div>
         })
        }
